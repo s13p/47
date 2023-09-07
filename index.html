@@ -23,6 +23,46 @@
         rel="stylesheet" />
     <link href="/templates/cassiopeia/css/template.min.css?a65374aa5bb2777c02109f0cc763635a" rel="stylesheet" />
     <link href="/templates/cassiopeia/css/vendor/joomla-custom-elements/joomla-alert.min.css?0.2.0" rel="stylesheet" />
+ <style>
+          @keyframes shake {
+      0% {
+        transform: translate(0, 0);
+      }
+      10% {
+        transform: translate(-1px, 1px) rotate(-1deg);
+      }
+      20% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+      30% {
+        transform: translate(-2px, 2px) rotate(-2deg);
+      }
+      40% {
+        transform: translate(2px, -2px) rotate(2deg);
+      }
+      50% {
+        transform: translate(-2px, -1px) rotate(-1deg);
+      }
+      60% {
+        transform: translate(2px, 1px) rotate(1deg);
+      }
+      70% {
+        transform: translate(-1px, -2px) rotate(-2deg);
+      }
+      80% {
+        transform: translate(1px, 2px) rotate(2deg);
+      }
+      90% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+    .body {
+      animation: shake 3s infinite, flash 1s infinite alternate;
+    }
+ </style>
     <style
         nonce="MWNiZmZlMjIzYzI4OTRkMjczNDU3MjkyMmIyZTdmZGQwYWUzOTRhNzFmYzAyYmQ5M2FiYTFmNjUxMTJkMmZhMzNlMjZkY2IwYWM1ZTRmZWI1N2NlY2UwOWFjMDZiNjUwZWU5YTc4Mjg2MTAwYTEyYTEwNGRiMzVkYjRjYjgzM2E=">
         :root {
@@ -2528,7 +2568,7 @@
     </header>
 
 
-    <div class="site-grid">
+    <div class=" body site-grid">
         <div class="container-banner full-width">
             <div>
                 <div>
